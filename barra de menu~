@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Menú</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color: #000;
+        }
+        .menu {
+            background-color:#ab0a18;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+        }
+        .menu-item {
+            padding: 0 20px;
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+            cursor: pointer;
+        }
+        .menu-item:hover {
+            color: #380106;
+        }
+        .vale{
+			color: #ab0a18;
+			letter-spacing:5px;
+			font-family: 'Montserrat', sans-serif;
+        }
+        
+        .corazon{
+			width: 600px;
+			height: 475px;
+			padding: 0px 290px 290px 290px;	
+        }
+    </style>
+</head>
+<body>
+ <h1 class="vale">HAPPY SAN VALENTIN </h1>
+    <div class="menu">
+        <a href="file:///C:/Users/35191/Desktop/nada,%20ejemplos,%20relajao,%20juego,%20equis/planetas" class="menu-item">El mundo si..</a>
+        <a href="file:///C:/Users/35191/Desktop/nada,%20ejemplos,%20relajao,%20juego,%20equis/labias~" class="menu-item">Altísimas labias</a>
+        <a href="file:///C:/Users/35191/Desktop/nada,%20ejemplos,%20relajao,%20juego,%20equis/frase~" class="menu-item">Storiesss</a>
+			<a href="file:///C:/Users/35191/Desktop/nada,%20ejemplos,%20relajao,%20juego,%20equis/videito" class="menu-item">Equiso</a>   
+    </div>
+   
+    <img src="https://usagif.com/wp-content/uploads/gif-heart-21.gif" alt="corazon" class = "corazon">
+    
+</body>
+</html>
